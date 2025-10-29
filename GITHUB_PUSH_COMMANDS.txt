@@ -1,0 +1,21 @@
+
+# Copy and paste these commands one by one in your terminal:
+
+cd /home/ar-in-u-359/Desktop/YOLO
+
+# First, get a GitHub Personal Access Token from:
+# https://github.com/settings/tokens
+# Click "Generate new token" → "Generate new token (classic)"
+# Check "repo" permissions
+# Copy the token (it looks like: ghp_xxxxxxxxxxxxx)
+
+# Then run this with your token:
+git push -u origin main
+
+# When it asks for:
+# Username: Amansh992
+# Password: PASTE_YOUR_TOKEN_HERE (NOT your GitHub password, use the token!)
+
+# OR use GitHub CLI if installed:
+# gh auth login
+# git push -u origin main
