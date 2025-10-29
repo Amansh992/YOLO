@@ -1,9 +1,9 @@
-
 # 📥 Download and Run Guide
 
 ## If you deleted your local project and want to download from GitHub
 
 ### Step 1: Clone the Repository
+
 ```bash
 # Clone from GitHub
 git clone https://github.com/Amansh992/YOLO.git
@@ -13,6 +13,7 @@ cd YOLO
 ```
 
 ### Step 2: Setup Virtual Environment
+
 ```bash
 # Create virtual environment
 python3 -m venv venv
@@ -24,6 +25,7 @@ venv\Scripts\activate  # On Windows
 ```
 
 ### Step 3: Install Dependencies
+
 ```bash
 # Install all required packages
 pip install -r requirements.txt
@@ -57,6 +59,7 @@ streamlit run dashboard/app.py --server.port 8501
 ```
 
 ### Step 6: Access Dashboard
+
 Open your browser and go to: **http://localhost:8501**
 
 ## 🚀 Quick Summary
@@ -85,14 +88,16 @@ streamlit run dashboard/app.py --server.port 8501
 ## 🔧 Troubleshooting
 
 ### "Dataset not found" error
+
 - Download xView dataset from official website
 - Place files in the correct location as shown in SETUP.md
 
-### "Model not trained" error  
+### "Model not trained" error
+
 - Run the training script: `python scripts/train.py --data dataset/data.yaml --batch 4`
 - Training takes ~40 minutes on GPU
 
 ### CUDA out of memory
+
 - Reduce batch size: `--batch 2` or `--batch 1`
 - Your GPU needs at least 4GB VRAM
-

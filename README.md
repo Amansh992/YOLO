@@ -60,12 +60,14 @@ YOLO/
 ## 📊 Model Performance
 
 ### Overall Accuracy
+
 - **mAP50**: 8.6% (overall)
 - **mAP50-95**: 3.5% (overall)
 - **Precision**: 80.8%
 - **Recall**: 6.3%
 
 ### Class-Wise Performance
+
 - **Large Vehicle**: 50.5% mAP50 (Best performing)
 - **Building**: 9.9% mAP50
 - **Small Vehicle**: 1.0% mAP50
@@ -75,6 +77,7 @@ YOLO/
 - **Ship**: 0% mAP50
 
 ### Training Details
+
 - **Model**: YOLOv12s (Small)
 - **Epochs**: 100
 - **Training time**: ~40 minutes
@@ -84,6 +87,7 @@ YOLO/
 - **Optimizer**: AdamW
 
 ### Notes
+
 - Model performs best on **large vehicles** (50.5% accuracy)
 - Other objects have low accuracy due to small dataset and model size
 - To improve accuracy, use larger model (`--model m` or `--model l`)
