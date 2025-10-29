@@ -78,3 +78,7 @@ checkpoints/
 results/
 outputs/
 test_results/
+
+# Helper scripts (not essential)
+check_training.py
+run.py
