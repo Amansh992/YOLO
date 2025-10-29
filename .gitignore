@@ -36,11 +36,13 @@ runs/
 # Dataset (too large for Git)
 dataset/
 dataset_augmented/
+xview_dataset/
 *.tif
 *.tiff
 *.jpg
 *.jpeg
 *.png
+*.geojson
 
 # Temporary files
 *.tmp
